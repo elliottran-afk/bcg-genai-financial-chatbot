@@ -1,0 +1,80 @@
+Chatbot test results (23 Oct 2026)
+
+Test 1: PASS
+You: What is the total revenue?
+Bot: Apple's total revenue in FY2025 (year to 27 Sep 2025) was $416.2bn, up 6.4% on the year before.
+     Microsoft's total revenue in FY2025 (year to 30 Jun 2025) was $281.7bn, up 14.9% on the year before.
+     Tesla's total revenue in 2025 was $94.8bn, down 2.9% on the year before.
+     Highest: Apple.
+
+Test 2: PASS
+You: What was Tesla's revenue in 2024?
+Bot: Tesla's total revenue in 2024 was $97.7bn, up 0.9% on the year before.
+
+Test 3: PASS
+You: How has net income changed over the last year?
+Bot: Apple's net income rose 19.5%, from $93.7bn in FY2024 to $112.0bn in FY2025 (year to 27 Sep 2025).
+       Note: this jump is flattered by the one-off tax charge of about $10.2bn in FY2024. Without it, growth was about 8%.
+     Microsoft's net income rose 15.5%, from $88.1bn in FY2024 to $101.8bn in FY2025 (year to 30 Jun 2025).
+     Tesla's net income fell 46.5%, from $7.1bn in 2024 to $3.8bn in 2025.
+
+Test 4: PASS
+You: How has Apple's net income changed over the last year?
+Bot: Apple's net income rose 19.5%, from $93.7bn in FY2024 to $112.0bn in FY2025 (year to 27 Sep 2025).
+       Note: this jump is flattered by the one-off tax charge of about $10.2bn in FY2024. Without it, growth was about 8%.
+
+Test 5: PASS
+You: Did Tesla's profit change in 2024?
+Bot: Tesla's net income fell 52.7%, from $15.0bn in 2023 to $7.1bn in 2024.
+       Note: 2023 profit included a one-off tax benefit of about $5.9bn. Without it, the fall would have been about 22%.
+
+Test 6: PASS
+You: Which company is the most profitable?
+Bot: Apple's net profit margin in FY2025 (year to 27 Sep 2025) was 26.9% ($112.0bn of net income on $416.2bn of revenue).
+     Microsoft's net profit margin in FY2025 (year to 30 Jun 2025) was 36.1% ($101.8bn of net income on $281.7bn of revenue).
+     Tesla's net profit margin in 2025 was 4.0% ($3.8bn of net income on $94.8bn of revenue).
+     Most profitable: Microsoft.
+
+Test 7: PASS
+You: What is Tesla's profit margin?
+Bot: Tesla's net profit margin in 2025 was 4.0% ($3.8bn of net income on $94.8bn of revenue).
+
+Test 8: PASS
+You: How much cash did Microsoft generate from operations?
+Bot: Microsoft's operating cash flow in FY2025 (year to 30 Jun 2025) was $136.2bn, up 14.9% on the year before.
+
+Test 9: PASS
+You: What are Apple's total liabilities?
+Bot: Apple's total liabilities on 27 Sep 2025 were $285.5bn, 79.5% of its $359.2bn of total assets.
+       Note: this is high mainly because Apple spends heavily buying back its own shares, which shrinks equity. It isn't a sign of financial trouble.
+
+Test 10: PASS
+You: Compare liabilities for Microsoft and Tesla in 2023
+Bot: Microsoft's total liabilities on 30 Jun 2023 were $205.8bn, 49.9% of its $412.0bn of total assets.
+     Tesla's total liabilities on 31 Dec 2023 were $43.0bn, 40.3% of its $106.6bn of total assets.
+     Lowest share of assets: Tesla.
+
+Test 11: PASS
+You: How did Microsoft's net income change in 2023?
+Bot: Microsoft's net income in FY2023 (year to 30 Jun 2023) was $72.4bn. My data starts in 2023, so I can't show the change.
+
+Test 12: PASS
+You: What was Microsoft's revenue in 2021?
+Bot: Sorry, I only have data for 2023 to 2025.
+
+Test 13: PASS
+You: What's the weather like?
+Bot: Sorry, I can only answer questions about revenue, net income, profit margin, operating cash flow and liabilities for Apple, Microsoft and Tesla. Type 'help' to see examples.
+
+Test 14: PASS
+You: help
+Bot: I can answer these questions about Apple, Microsoft and Tesla (2023 to 2025):
+       1. What is the total revenue?
+       2. How has net income changed over the last year?
+       3. What is the profit margin?  (or: Which company is the most profitable?)
+       4. How much cash did they generate from operations?
+       5. What are the total liabilities?
+     Name a company and/or a year to narrow it down, e.g. "What was Tesla's revenue in 2024?"
+     If you don't name a company, I'll answer for all three.
+
+14 of 14 tests passed.
